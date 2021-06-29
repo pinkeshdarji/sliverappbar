@@ -10,7 +10,7 @@ class BasicSliverAppBar extends StatelessWidget {
       body: CustomScrollView(
         slivers: <Widget>[
           SliverAppBar(
-            // pinned: true,
+            // pinned: false,
             // snap: true,
             // floating: true,
             expandedHeight: 250.0,
@@ -20,9 +20,7 @@ class BasicSliverAppBar extends StatelessWidget {
                 'assets/images/beach.png',
                 fit: BoxFit.fill,
               ),
-              stretchModes: [StretchMode.zoomBackground],
             ),
-            //collapsedHeight: 100,
           ),
           SliverList(
             delegate: SliverChildBuilderDelegate(

@@ -15,6 +15,7 @@ class _SliverAppBarWithAppBarState extends State<SliverAppBarWithAppBar> {
         body: CustomScrollView(
           slivers: <Widget>[
             SliverAppBar(
+              pinned: true,
               snap: true,
               floating: true,
               expandedHeight: 300,
